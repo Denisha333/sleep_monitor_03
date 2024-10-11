@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sleep Monitor</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Sleep Monitoring App</h1>
+        <form id="sleepForm">
+            <label for="sleepTime">Sleep Time:</label>
+            <input type="time" id="sleepTime" required>
+            <label for="wakeTime">Wake Up Time:</label>
+            <input type="time" id="wakeTime" required>
+            <button type="submit">Log Sleep</button>
+        </form>
+        <h2>Daily Sleep Data</h2>
+        <div id="sleepData"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
